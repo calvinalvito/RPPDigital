@@ -18,7 +18,7 @@ const features = [
     title: "Struktur Organisasi",
     desc: "Susunan kelembagaan KPU dan pembagian tugas tiap bagian.",
     icon: groupIcon,
-    link: "/struktur",
+    link: "/strukturkpu",
   },
   {
     title: "Statistik Pemilu",
