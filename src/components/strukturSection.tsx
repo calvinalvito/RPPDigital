@@ -82,38 +82,38 @@ export default function StrukturBlora() {
         
         <div className="lg:col-span-3 flex justify-center gap-6">
             <div className="w-full sm:w-[48%] lg:w-[30%] relative rounded-xl overflow-hidden">
-          <img src={FotoMustakim} className="w-full h-full object-cover" />
+                <img src={FotoMustakim} className="w-full h-full object-cover" />
 
-          <div className="absolute inset-0 bg-linear-to-t from-[#c02f31] via-transparent to-transparent"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-[#c02f31] via-transparent to-transparent"></div>
 
-          <div className="absolute bottom-6 left-6 text-white md:w-55">
-            <p className="text-lg md:text-2xl font-semibold">
-              Ahmad Muastakim, S.Pd.I
-            </p>
-            <p className="text-sm font-semibold">Anggota</p>
-            <p className="text-xs">
-              Kadiv Sosialisasi, Pendidikan Pemilih, Partisipasi Masyarakat dan SDM
-            </p>
-          </div>
-        </div>
+                <div className="absolute bottom-6 left-6 text-white md:w-55">
+                    <p className="text-lg md:text-2xl font-semibold">
+                    Ahmad Muastakim, S.Pd.I
+                    </p>
+                    <p className="text-sm font-semibold">Anggota</p>
+                    <p className="text-xs">
+                    Kadiv Sosialisasi, Pendidikan Pemilih, Partisipasi Masyarakat dan SDM
+                    </p>
+                </div>
+                </div>
 
-        {/* CARD 5 */}
-        <div className="w-full sm:w-[48%] lg:w-[30%] relative rounded-xl overflow-hidden">
-          <img src={FotoNoorman} className="w-full h-full object-cover" />
+                {/* CARD 5 */}
+                <div className="w-full sm:w-[48%] lg:w-[30%] relative rounded-xl overflow-hidden">
+                <img src={FotoNoorman} className="w-full h-full object-cover" />
 
-          <div className="absolute inset-0 bg-linear-to-t from-[#c02f31] via-transparent to-transparent"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-[#c02f31] via-transparent to-transparent"></div>
 
-          <div className="absolute bottom-6 left-6 text-white md:w-55">
-            <p className="text-lg md:text-2xl font-semibold">
-              Noorman Pramono, S.IP.
-            </p>
-            <p className="text-sm font-semibold">Anggota</p>
-            <p className="text-xs">
-              Kadiv Hukum dan Pengawasan
-            </p>
-          </div>
-        </div>
-        </div>
+                <div className="absolute bottom-6 left-6 text-white md:w-55">
+                    <p className="text-lg md:text-2xl font-semibold">
+                    Noorman Pramono, S.IP.
+                    </p>
+                    <p className="text-sm font-semibold">Anggota</p>
+                    <p className="text-xs">
+                    Kadiv Hukum dan Pengawasan
+                    </p>
+                </div>
+                </div>
+            </div>
 
         {/* CARD 4 */}
         
