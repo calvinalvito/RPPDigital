@@ -159,7 +159,7 @@ export default function ModulSection() {
             >
                 <img
                 src={GambarModul}
-                className="w-full h-[200px] object-cover group-hover:scale-105 transition duration-300"
+                className="w-full h-50 object-cover group-hover:scale-105 transition duration-300"
                 />
 
                 <div className="p-5 space-y-2">

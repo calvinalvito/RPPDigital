@@ -8,6 +8,9 @@ import ModulPembalajaran from "./pages/modulPembelajaran";
 import TahapanPenyelenggaraan from "./pages/Modul Pembelajaran/tahapanPenyelenggaraan";
 import SistemPemiluDunia from "./pages/Modul Pembelajaran/sistemPemilu";
 import PesertaPemilu from "./pages/Modul Pembelajaran/pesertaPemilu";
+import SejarahPage from "./pages/sejarahPage";
+import StatistikPage from "./pages/statistikPage";
+import FAQ from "./pages/faqPage";
 
 export default function App() {
   return (
@@ -16,6 +19,9 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/tentangkpu" element={<TentangKPU />} />
         <Route path="/pdpb" element={<PDPB />} />
+        <Route path="/statistik" element={<StatistikPage />} />
+        <Route path="/sejarah" element={<SejarahPage />} />
+        <Route path="/faq" element={<FAQ />} />
         <Route path="/strukturkpu" element={<StrukturKPU />} />
         <Route path="/modul-pembelajaran" element={<ModulPembalajaran />} />
         <Route path="/modul-pembelajaran/Tahapan-Penyelenggaraan" element={<TahapanPenyelenggaraan />} />
