@@ -14,6 +14,10 @@ import FAQ from "./pages/faqPage";
 import PilpresPage from "./pages/pilpresPage";
 import PilbupPage from "./pages/pilbupPage";
 import PilgubPage from "./pages/pilgubPage";
+import DPRDKAB from "./pages/dprdkabPage";
+import DPDRIProv from "./pages/dpdriprovPage";
+import DPRDProv from "./pages/dprdprovPage";
+import DPRRI from "./pages/dprriPage";
 
 export default function App() {
   return (
@@ -26,6 +30,10 @@ export default function App() {
         <Route path="/statistik/pilpres-2024" element={<PilpresPage />} />
         <Route path="/statistik/pilbup-2024" element={<PilbupPage />} />
         <Route path="/statistik/pilgub-2024" element={<PilgubPage />} />
+        <Route path="/statistik/dprdkab-2024" element={<DPRDKAB />} />
+        <Route path="/statistik/dpdri-prov-jateng-2024" element={<DPDRIProv />} />
+        <Route path="/statistik/dprd-prov-jateng-2024" element={<DPRDProv />} />
+        <Route path="/statistik/dprd-ri-2024" element={<DPRRI />} />
         <Route path="/sejarah" element={<SejarahPage />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/strukturkpu" element={<StrukturKPU />} />

@@ -36,7 +36,7 @@ const features = [
     title: "Modul Pembelajaran",
     desc: "Modul pembelajaran untuk memahami demokrasi dan kepemiluan di Indonesia.",
     icon: bookIcon,
-    link: "/modul-pembalajaran",
+    link: "/modul-pembelajaran",
   },
   {
     title: "FAQ Pemilu",

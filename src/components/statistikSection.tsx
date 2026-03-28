@@ -4,16 +4,16 @@ import Iconwoman from "../assets/woman 2.png"
 
 export default function StatistikSection() {
   const pemiluMenu = [
-    { title: "Presiden & Wakil Presiden (Pilpres)", path: "/pilpres" },
-    { title: "DPR RI", path: "/dpr" },
-    { title: "DPD RI", path: "/dpd" },
-    { title: "DPRD Provinsi", path: "/dprd-provinsi" },
-    { title: "DPRD Kab/Kota", path: "/dprd-kabkota" },
+    { title: "Presiden & Wakil Presiden (Pilpres) 2024", path: "/statistik/pilpres-2024" },
+    { title: "DPR RI 2024", path: "/statistik/dprd-ri-2024" },
+    { title: "DPD RI 2024", path: "/statistik/dpdri-prov-jateng-2024" },
+    { title: "DPRD Provinsi 2024", path: "/statistik/dprd-prov-jateng-2024" },
+    { title: "DPRD Kab/Kota 2024", path: "/statistik/dprdkab-2024" },
   ];
 
   const pilkadaMenu = [
-    { title: "Pemilihan Bupati", path: "/bupati" },
-    { title: "Pemilihan Gubernur & Wakil Gubernur", path: "/gubernur" },
+    { title: "Pemilihan Bupati 2024", path: "/statistik/pilbup-2024" },
+    { title: "Pemilihan Gubernur & Wakil Gubernur 2024", path: "/statistik/pilgub-2024" },
   ];
 
   const data = [

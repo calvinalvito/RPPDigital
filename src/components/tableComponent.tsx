@@ -28,7 +28,7 @@ export default function Table({
             {headers.map((header, i) => (
               <div
                 key={`header-${i}`}
-                className="p-3 bg-gray-100 font-bold text-center border-b border-gray-300"
+                className="p-3 bg-[#c02f31] font-bold text-center border-b border-gray-300 text-white border-r"
               >
                 {header}
               </div>

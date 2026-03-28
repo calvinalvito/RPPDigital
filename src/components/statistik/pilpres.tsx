@@ -103,7 +103,7 @@ export default function PilpresSection() {
             {/* FOTO */}
             <img
               src={item.img}
-              className="w-full h-[250px] object-contain mt-8"
+              className="w-full h-62.5 object-contain mt-8"
             />
 
             {/* CONTENT */}
@@ -143,7 +143,7 @@ export default function PilpresSection() {
   
         {/* CARD 1 */}
         <div className="flex flex-col gap-2 w-full">
-            <div className="mt-4 md:mt-6 bg-linear-to-r from-[#c02f31] to-[#5a1617] px-4 md:px-6 py-3 w-full md:max-w-[300px] mb-3">
+            <div className="mt-4 md:mt-6 bg-linear-to-r from-[#c02f31] to-[#5a1617] px-4 md:px-6 py-3 w-full md:max-w-75 mb-3">
             <p className="text-sm md:text-lg font-semibold text-white">
                 Tingkat Nasional
             </p>
@@ -157,7 +157,7 @@ export default function PilpresSection() {
 
         {/* CARD 2 */}
         <div className="flex flex-col gap-2 w-full">
-            <div className="mt-4 md:mt-6 bg-linear-to-r from-[#c02f31] to-[#5a1617] px-4 md:px-6 py-3 w-full md:max-w-[300px] mb-3">
+            <div className="mt-4 md:mt-6 bg-linear-to-r from-[#c02f31] to-[#5a1617] px-4 md:px-6 py-3 w-full md:max-w-75 mb-3">
             <p className="text-sm md:text-lg font-semibold text-white">
                 Tingkat Kabupaten Blora
             </p>
