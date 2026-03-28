@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter , Routes, Route } from "react-router-dom";
 
 import Home from "./pages/home";
 import TentangKPU from "./pages/tentangkpu";
@@ -29,7 +29,7 @@ import Sejarah8 from "./pages/Sejarah Page/2019Page";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tentangkpu" element={<TentangKPU />} />
@@ -58,6 +58,6 @@ export default function App() {
         <Route path="/modul-pembelajaran/Sistem-Pemilu-Dunia" element={<SistemPemiluDunia />} />
         <Route path="/modul-pembelajaran/Peserta-Pemilu" element={<PesertaPemilu />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter >
   );
 }
