@@ -18,6 +18,14 @@ import DPRDKAB from "./pages/dprdkabPage";
 import DPDRIProv from "./pages/dpdriprovPage";
 import DPRDProv from "./pages/dprdprovPage";
 import DPRRI from "./pages/dprriPage";
+import Sejarah1 from "./pages/Sejarah Page/1955Page";
+import Sejarah2 from "./pages/Sejarah Page/1971Page";
+import Sejarah3 from "./pages/Sejarah Page/1977Page";
+import Sejarah4 from "./pages/Sejarah Page/1999Page";
+import Sejarah5 from "./pages/Sejarah Page/2004Page";
+import Sejarah6 from "./pages/Sejarah Page/2009Page";
+import Sejarah7 from "./pages/Sejarah Page/2014Page";
+import Sejarah8 from "./pages/Sejarah Page/2019Page";
 
 export default function App() {
   return (
@@ -35,6 +43,14 @@ export default function App() {
         <Route path="/statistik/dprd-prov-jateng-2024" element={<DPRDProv />} />
         <Route path="/statistik/dprd-ri-2024" element={<DPRRI />} />
         <Route path="/sejarah" element={<SejarahPage />} />
+        <Route path="/sejarah/1955" element={<Sejarah1 />} />
+        <Route path="/sejarah/1971" element={<Sejarah2 />} />
+        <Route path="/sejarah/1977-1997" element={<Sejarah3 />} />
+        <Route path="/sejarah/1999" element={<Sejarah4 />} />
+        <Route path="/sejarah/2004" element={<Sejarah5 />} />
+        <Route path="/sejarah/2009" element={<Sejarah6 />} />
+        <Route path="/sejarah/2014" element={<Sejarah7 />} />
+        <Route path="/sejarah/2019" element={<Sejarah8 />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/strukturkpu" element={<StrukturKPU />} />
         <Route path="/modul-pembelajaran" element={<ModulPembalajaran />} />

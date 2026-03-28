@@ -1,18 +1,16 @@
 import Navbar from "../components/navbar";
-import SectionHeader from "../components/sectionHeader";
-import FotoBackground from "../assets/Foto-Background.png"
+import HeroSejarah from "../components/heroSejarah";
 import Footer from "../components/footer";
 import TimelinePemilu from "../components/sejarahHome";
+import JumlahPemilihChart from "../components/jumlahpemilihChart";
 
 export default function sejarahPage() {
   return (
     <>
     <Navbar />
-      <SectionHeader
-        title="Struktur Organisasi"
-        image={FotoBackground}
-      />
+      <HeroSejarah />
       <TimelinePemilu />
+      <JumlahPemilihChart />
       <Footer />
     </>
   );
