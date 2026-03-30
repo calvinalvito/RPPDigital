@@ -27,10 +27,10 @@ export default function Navbar() {
 
         {/* MENU DESKTOP */}
         <div className="hidden md:flex gap-8 font-semibold text-gray-700">
-          <a href="/" className="hover:text-[#c02f31]">Beranda</a>
-          <a href="/tentangkpu" className="hover:text-[#c02f31]">Tentang KPU</a>
-          <a href="/statistik" className="hover:text-[#c02f31]">Statistik</a>
-          <a href="/sejarah" className="hover:text-[#c02f31]">Sejarah Pemilu</a>
+          <a href="/RPPDigital/" className="hover:text-[#c02f31]">Beranda</a>
+          <a href="/RPPDigital/#/tentangkpu" className="hover:text-[#c02f31]">Tentang KPU</a>
+          <a href="/RPPDigital/#/statistik" className="hover:text-[#c02f31]">Statistik</a>
+          <a href="/RPPDigital/#/sejarah" className="hover:text-[#c02f31]">Sejarah Pemilu</a>
         </div>
 
         {/* HAMBURGER */}
@@ -65,10 +65,10 @@ export default function Navbar() {
       {/* MENU MOBILE */}
       {open && (
         <div className="mt-4 flex flex-col gap-4 md:hidden font-semibold text-gray-700">
-          <a href="/" className="hover:text-[#c02f31]">Beranda</a>
-          <a href="/tentangkpu" className="hover:text-[#c02f31]">Tentang KPU</a>
-          <a href="/statistik" className="hover:text-[#c02f31]">Statistik</a>
-          <a href="/sejarah" className="hover:text-[#c02f31]">Sejarah Pemilu</a>
+          <a href="/RPPDigital/" className="hover:text-[#c02f31]">Beranda</a>
+          <a href="/RPPDigital/#/tentangkpu" className="hover:text-[#c02f31]">Tentang KPU</a>
+          <a href="/RPPDigital/#/statistik" className="hover:text-[#c02f31]">Statistik</a>
+          <a href="/RPPDigital/#/sejarah" className="hover:text-[#c02f31]">Sejarah Pemilu</a>
         </div>
       )}
 
