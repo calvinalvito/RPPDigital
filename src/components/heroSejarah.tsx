@@ -1,4 +1,4 @@
-import heroImage from "../assets/gambar-hero.png";
+import heroImage from "../assets/Sejarah-Pemilu.png";
 
 export default function HeroSejarah() {
   return (
@@ -23,7 +23,7 @@ export default function HeroSejarah() {
         <img
         src={heroImage}
         alt="Hero"
-        className="w-72 md:w-96 object-contain"
+        className="w-80 md:w-120 object-contain"
         />
       </div>
 

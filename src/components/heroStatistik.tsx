@@ -1,4 +1,4 @@
-import heroImage from "../assets/gambar-hero.png";
+import heroImage from "../assets/Statistik-Pemilu.png";
 
 export default function HeroStatistik() {
   return (
@@ -23,7 +23,7 @@ export default function HeroStatistik() {
         <img
         src={heroImage}
         alt="Hero"
-        className="w-72 md:w-96 object-contain"
+        className="w-72 md:w-100 object-contain"
         />
       </div>
 
